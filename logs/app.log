@@ -1,0 +1,89 @@
+2021-06-19 11:51:36,419 INFO com.CarsApplication [main] Starting CarsApplication using Java 15.0.1 on Divya with PID 8628 (D:\Sprint Project\CarsApplication\bin\main started by Shiva in D:\Sprint Project\CarsApplication)
+2021-06-19 11:51:36,423 INFO com.CarsApplication [main] No active profile set, falling back to default profiles: default
+2021-06-19 11:51:39,638 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-19 11:51:40,456 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 799 ms. Found 6 JPA repository interfaces.
+2021-06-19 11:51:42,446 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 9094 (http)
+2021-06-19 11:51:42,468 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-9094"]
+2021-06-19 11:51:42,469 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2021-06-19 11:51:42,470 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-19 11:51:42,757 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2021-06-19 11:51:42,757 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 6214 ms
+2021-06-19 11:51:43,102 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-06-19 11:51:43,888 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-06-19 11:51:45,009 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-19 11:51:45,494 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-06-19 11:51:45,999 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-19 11:51:46,787 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-06-19 11:51:50,638 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] SQL Warning Code: 0, SQLState: 00000
+2021-06-19 11:51:50,639 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] relation "order_form" does not exist, skipping
+2021-06-19 11:51:51,035 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] SQL Warning Code: 0, SQLState: 00000
+2021-06-19 11:51:51,035 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] drop cascades to constraint fkkng8dw03brlyhkeq2ga5kvpi0 on table orderform
+2021-06-19 11:51:51,037 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] SQL Warning Code: 0, SQLState: 00000
+2021-06-19 11:51:51,038 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] table "order_form" does not exist, skipping
+2021-06-19 11:51:51,085 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] SQL Warning Code: 0, SQLState: 00000
+2021-06-19 11:51:51,085 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] table "user_form" does not exist, skipping
+2021-06-19 11:51:53,110 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-19 11:51:53,227 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-19 11:51:55,374 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-19 11:51:57,625 INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-9094"]
+2021-06-19 11:51:57,934 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 9094 (http) with context path ''
+2021-06-19 11:52:01,770 INFO com.CarsApplication [main] Started CarsApplication in 27.442 seconds (JVM running for 28.983)
+2021-06-19 11:52:55,323 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-9094-exec-4] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-19 11:52:55,324 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-9094-exec-4] Initializing Servlet 'dispatcherServlet'
+2021-06-19 11:52:55,327 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-9094-exec-4] Completed initialization in 3 ms
+2021-06-19 11:52:56,491 ERROR springfox.documentation.swagger2.mappers.ReferenceModelSpecificationToPropertyConverter [http-nio-9094-exec-9] Unable to find a model that matches key ModelKey{qualifiedModelName=ModelName{namespace='java.util', name='Optional«Appointment»'}, viewDiscriminator=null, validationGroupDiscriminators=[], isResponse=true}
+2021-06-19 11:52:56,504 ERROR springfox.documentation.swagger2.mappers.ReferenceModelSpecificationToPropertyConverter [http-nio-9094-exec-9] Unable to find a model that matches key ModelKey{qualifiedModelName=ModelName{namespace='java.util', name='Optional«Customer»'}, viewDiscriminator=null, validationGroupDiscriminators=[], isResponse=true}
+2021-06-19 11:52:56,517 ERROR springfox.documentation.swagger2.mappers.ReferenceModelSpecificationToPropertyConverter [http-nio-9094-exec-9] Unable to find a model that matches key ModelKey{qualifiedModelName=ModelName{namespace='java.util', name='Optional«Payment»'}, viewDiscriminator=null, validationGroupDiscriminators=[], isResponse=true}
+2021-06-19 11:52:56,520 ERROR springfox.documentation.swagger2.mappers.ReferenceModelSpecificationToPropertyConverter [http-nio-9094-exec-9] Unable to find a model that matches key ModelKey{qualifiedModelName=ModelName{namespace='java.util', name='Optional«Customer»'}, viewDiscriminator=null, validationGroupDiscriminators=[], isResponse=true}
+2021-06-19 12:00:33,144 WARN org.springframework.validation.DataBinder [http-nio-9094-exec-4] Skipping URI variable 'paymentId' because request contains bind value with same name.
+2021-06-19 13:01:04,558 INFO com.CarsApplication [main] Starting CarsApplication using Java 15.0.1 on Divya with PID 6800 (D:\Sprint Project\CarsApplication\bin\main started by Shiva in D:\Sprint Project\CarsApplication)
+2021-06-19 13:01:04,581 INFO com.CarsApplication [main] No active profile set, falling back to default profiles: default
+2021-06-19 13:01:07,816 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-19 13:01:08,502 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 668 ms. Found 6 JPA repository interfaces.
+2021-06-19 13:01:10,297 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 9094 (http)
+2021-06-19 13:01:10,335 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-9094"]
+2021-06-19 13:01:10,336 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2021-06-19 13:01:10,337 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-19 13:01:10,587 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2021-06-19 13:01:10,587 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 5832 ms
+2021-06-19 13:01:10,899 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-06-19 13:01:11,365 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-06-19 13:01:12,004 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-19 13:01:12,127 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-06-19 13:01:12,524 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-19 13:01:12,776 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-06-19 13:01:17,277 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-19 13:01:17,286 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-19 13:01:18,924 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-19 13:01:21,000 INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-9094"]
+2021-06-19 13:01:21,083 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 9094 (http) with context path ''
+2021-06-19 13:01:22,672 INFO com.CarsApplication [main] Started CarsApplication in 18.776 seconds (JVM running for 20.094)
+2021-06-19 13:47:09,408 INFO com.CarsApplication [main] Starting CarsApplication using Java 15.0.1 on Divya with PID 9316 (D:\Sprint Project\CarsApplication\bin\main started by Shiva in D:\Sprint Project\CarsApplication)
+2021-06-19 13:47:09,455 INFO com.CarsApplication [main] No active profile set, falling back to default profiles: default
+2021-06-19 13:47:12,382 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-19 13:47:13,036 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 635 ms. Found 6 JPA repository interfaces.
+2021-06-19 13:47:14,559 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 9094 (http)
+2021-06-19 13:47:14,579 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-9094"]
+2021-06-19 13:47:14,580 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2021-06-19 13:47:14,580 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-19 13:47:14,794 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2021-06-19 13:47:14,794 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 5259 ms
+2021-06-19 13:47:15,099 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-06-19 13:47:15,572 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-06-19 13:47:16,424 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-19 13:47:16,517 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-06-19 13:47:16,831 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-19 13:47:17,040 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-06-19 13:47:19,480 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-19 13:47:19,491 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-19 13:47:21,622 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-19 13:47:23,708 INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-9094"]
+2021-06-19 13:47:23,751 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 9094 (http) with context path ''
+2021-06-19 13:47:25,115 INFO com.CarsApplication [main] Started CarsApplication in 16.576 seconds (JVM running for 17.706)
+2021-06-19 13:47:43,627 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-9094-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-19 13:47:43,627 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-9094-exec-2] Initializing Servlet 'dispatcherServlet'
+2021-06-19 13:47:43,632 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-9094-exec-2] Completed initialization in 4 ms
+2021-06-19 13:47:45,696 ERROR springfox.documentation.swagger2.mappers.ReferenceModelSpecificationToPropertyConverter [http-nio-9094-exec-7] Unable to find a model that matches key ModelKey{qualifiedModelName=ModelName{namespace='java.util', name='Optional«Appointment»'}, viewDiscriminator=null, validationGroupDiscriminators=[], isResponse=true}
+2021-06-19 13:47:45,708 ERROR springfox.documentation.swagger2.mappers.ReferenceModelSpecificationToPropertyConverter [http-nio-9094-exec-7] Unable to find a model that matches key ModelKey{qualifiedModelName=ModelName{namespace='java.util', name='Optional«Customer»'}, viewDiscriminator=null, validationGroupDiscriminators=[], isResponse=true}
+2021-06-19 13:47:45,743 ERROR springfox.documentation.swagger2.mappers.ReferenceModelSpecificationToPropertyConverter [http-nio-9094-exec-7] Unable to find a model that matches key ModelKey{qualifiedModelName=ModelName{namespace='java.util', name='Optional«Payment»'}, viewDiscriminator=null, validationGroupDiscriminators=[], isResponse=true}
+2021-06-19 13:47:45,748 ERROR springfox.documentation.swagger2.mappers.ReferenceModelSpecificationToPropertyConverter [http-nio-9094-exec-7] Unable to find a model that matches key ModelKey{qualifiedModelName=ModelName{namespace='java.util', name='Optional«Customer»'}, viewDiscriminator=null, validationGroupDiscriminators=[], isResponse=true}
